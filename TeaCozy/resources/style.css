@@ -1,0 +1,145 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: Seashell;
+}
+
+/* Header */
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  max-height: 50px;
+}
+
+.navigation {
+  text-decoration: underline;
+  width: 50%;
+}
+
+/* Mission */
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: relative;
+  top: 69px;
+  justify-content: center;
+}
+
+.mission_text {
+  background-color: black;
+  width: 1200px;
+}
+
+/* Tea of the Month */
+
+#featured {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  align-content: center;
+}
+
+.tea_of_month {
+  width: 1000px;
+}
+
+.top_row {
+  display: flex;
+  justify-content: center;
+}
+
+.berry_blitz {
+  margin-right: 50px;
+}
+
+.spiced_rum {
+  margin-right: 50px;
+}
+
+.bottom_row {
+  display: flex;
+  justify-content: center;
+}
+
+.myrtle_ave {
+  margin-right: 50px;
+}
+
+/* Locations */
+
+#locations{
+  position: relative;
+  top: 100px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.downtown {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.east_bayside {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.oakdale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
